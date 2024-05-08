@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.build_building_01_a.tif filter=lfs diff=lfs merge=lfs -text
+*build_building_02.a.tif filter=lfs diff=lfs merge=lfs -text
+*.wood_tiled_01.n_tif filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+build_building_01_a.tif filter=lfs diff=lfs merge=lfs -text
+build_building_02.a.tif filter=lfs diff=lfs merge=lfs -text
+wood_tiled_01_n.tif filter=lfs diff=lfs merge=lfs -text
+build_building_02_a.tif filter=lfs diff=lfs merge=lfs -text
